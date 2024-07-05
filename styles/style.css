@@ -1,0 +1,139 @@
+body {
+    height: 100%;
+    /*    background: linear-gradient(90deg, #e5989b 50%, #00b4d8 50%);*/
+}
+.container-fluid {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.login-container {
+    /* background-color: red; */
+    /* background-image: url(../images/mariamercado.jpg) !important; */
+    background: linear-gradient(0deg, rgba(235, 230, 233, 0.3), rgba(235, 230, 233, 0.3)), url(../images/mariamercado.jpg) !important;
+    background: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.imagebg {
+    width: 280px;
+    height: auto;
+}
+
+/* .form{
+ margin-top: 200px;
+} */
+
+.left {
+    background-color: #dda15e;
+    padding: 40px;
+    width: 400px;
+}
+
+.right {
+    background-color: #bc6c25;
+    padding: 60px;
+    width: 400px;
+    z-index: 10;
+}
+
+h2 {
+    font-family: arial;
+    font-size: 30px;
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.gbtn {
+    background-color: white;
+    border: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    width: 200px;
+    box-shadow: 1px 2px 2px gray;
+    font-family: 'kanit', sans-serif;
+}
+
+.gbtn:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 1px;
+}
+img {
+    height: 80px;
+    width: auto;
+}
+
+label {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+/* .textfield {
+    margin-top: 5px;
+    width: 200px;
+    background-color: white;
+    border: solid;
+    border-color: gray;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.textfield:active {
+    border-color: gray;
+    border-radius: 3px;
+    border-width: 1px;
+} */
+
+/* .loginbtn {
+    margin-top: 5px;
+    background-color: #4747cd;
+    border: solid;
+    border-color: gray;
+    border-radius: 3px;
+    border-width: 1px;
+    width: 200px;
+    box-shadow: 1px 2px 2px gray;
+    color: white;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+} */
+.googleimg {
+    height: 20px;
+    top: 10px;
+}
+.loginbtn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.loginbtn:active {
+    opacity: 1;
+}
+.navbar-header {
+    height: 200px !important;
+}
+.success-message {
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: rgba(209, 231, 221, 1);
+    border: solid 3px rgba(186, 219, 204, 1);
+}
+.success-message label {
+    font-size: 18px;
+}
